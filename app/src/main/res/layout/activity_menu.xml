@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:layout_marginTop="100dp"
+    >
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="IMC  "
+    android:textSize="45sp"
+    android:textColor="#6C31D6"
+    android:textStyle="bold"
+    />
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculteur d'imc"
+        android:textSize="25sp"
+        android:id="@+id/imc"
+        android:layout_gravity="center"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="150dp">
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="commencer"
+android:layout_marginLeft="10dp"
+        android:layout_marginRight="150dp"
+        />
+    <Button
+        android:id="@+id/quitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  quitter "
+        android:layout_gravity="right"
+       />
+</LinearLayout>
+
+
+
+</LinearLayout>
